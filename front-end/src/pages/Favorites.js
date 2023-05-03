@@ -6,7 +6,6 @@ import CardFilm from '../components/CardFilm';
 
 export default function Favorites() {
   const { favoriteFilms, toggleFavorite } = useContext(FilmsContext);
-
   return (
     <main>
       <Header />
