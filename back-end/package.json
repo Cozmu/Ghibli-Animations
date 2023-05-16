@@ -4,7 +4,8 @@
   "description": "Filmes do estúdio de animação Ghibli",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch \"./src/**\" ./src/server.ts"
+    "dev": "nodemon --watch \"./src/**\" ./src/server.ts",
+    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   "homepage": "https://github.com/Cozmu/Ghibli-Animations#readme",
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^18.16.3",
+    "@types/node": "^20.1.7",
     "@types/sequelize": "^4.28.15",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "eslint": "^8.39.0",
