@@ -4,8 +4,8 @@
   "description": "Filmes do estúdio de animação Ghibli",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch \"./src/**\" ./src/server.ts",
-    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
+    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "dev": "nodemon --watch \"./src/**\" ./src/server.ts"
   },
   "repository": {
     "type": "git",
