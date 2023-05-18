@@ -5,118 +5,118 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.bulkInsert('films', [
       {
-        title: 'Nausicaä do Vale do Vento',
-        description: 'Diante da destruição dos recursos naturais de seu planeta, a princesa guerreira Nausicaa mobiliza seu povo contra o violento exército de uma rainha má.',
+        title: 'Nausicaä of the Valley of the Wind',
+        description: 'Faced with the destruction of her planet\'s natural resources, warrior princess Nausicaa mobilizes her people against the violent army of an evil queen.',
         image: ''
       },
       {
-        title: 'O Castelo no Céu',
-        description: 'A jovem órfã Sheeta e seu sequestrador, coronel Muska, estão voando para uma prisão militar quando sua aeronave é atacada por uma gangue de piratas aéreos liderados por Dola.',
+        title: 'Castle in the Sky',
+        description: 'Young orphan Sheeta and her kidnapper Colonel Muska are flying to a military prison when their aircraft is attacked by a gang of air pirates led by Dola.',
         image: ''
       },
       {
-        title: 'Meu Amigo Totoro',
-        description: 'Duas meninas se mudam para o interior do Japão para cuidar de sua mãe doente e fazem amizade com criaturas mágicas que habitam os arredores de seu novo lar.',
+        title: 'My Neighhor Totoro',
+        description: 'Two girls move to the countryside of Japan to care for their sick mother and befriend the magical creatures that inhabit the outskirts of their new home.',
         image: ''
       },
       {
-        title: 'Túmulo dos Vagalumes',
-        description: 'Os irmão Setsuko e Seita vivem no Japão em meio a Segunda Guerra Mundial. Após a morte da mãe em um bombardeio e a convocação do pai para a Guerra, eles vão morar com alguns parentes. Insatisfeitos, saem da cidade e acabam em um abrigo na floresta.',
+        title: 'Grave of the Fireflies',
+        description: 'Siblings Setsuko and Seita live in Japan during World War II. After their mother\'s death in a bombing and their father\'s call to war, they move in with some relatives. Dissatisfied, they leave the city and end up in a shelter in the woods.',
         image: ''
       },
       {
-        title: 'O Serviço de Entregas da Kiki',
-        description: 'Por ordem de sua mãe, Kiki parte para um aprendizado de um ano, acompanhada por seu gato preto. A um comando de sua vassoura mágica, ela vai parar na charmosa cidadezinha de Moreoastal.',
+        title: 'Kiki\'s Delivery Serice',
+        description: 'On her mother\'s orders, Kiki leaves for a year-long apprenticeship, accompanied by her black cat. At the command of her magic broom, she ends up in the charming little town of Moreoastal.',
         image: ''
       },
       {
-        title: 'Memórias de Ontem',
-        description: 'Taeko é uma mulher solteira que se dedica apenas ao trabalho. Ela sai de sua nativa Tóquio pela primeira vez e viaja a Yamagata para visitar a família da irmã durante a colheita anual de açafrão-bastardo.',
+        title: 'Only Yesterday',
+        description: 'Taeko is a single woman who dedicates herself only to work. She leaves her native Tokyo for the first time and travels to Yamagata to visit her sister\'s family during the annual turmeric harvest.',
         image: ''
       },
       {
-        title: 'Porco Rosso: O Último Herói Romântico',
-        description: 'Piratas dos céus decidem aterrorizar o Mar Adriático e apenas um bravo piloto, metade homem e metade porco, tem a coragem necessária para enfrentá-los.',
+        title: 'Porco Rosso: The Last Romantic Hero',
+        description: 'Sky pirates decide to terrorize the Adriatic Sea and only a brave pilot, half man and half pig, has the necessary courage to face them.',
         image: ''
       },
       {
-        title: 'Eu Posso Ouvir o Oceano',
-        description: 'O estudante universitário Taku recorda a chegada da aluna Rikako, dois anos atrás, e o fatídico verão que colocou à prova sua amizade com Yutaka.',
+        title: 'Ocean Waves',
+        description: 'College student Taku recalls the arrival of student Rikako two years ago and the fateful summer that put his friendship with Yutaka to the test.',
         image: ''
       },
       {
-        title: 'PomPoko: A Grande Batalha dos Guaxinins',
-        description: 'Lançamentos imobiliários estão expulsando os guaxinins selvagens de Tama Hills. Mas eles estão se preparando para revidar!',
+        title: 'PomPoko: The Great Battle of the Raccoons',
+        description: 'Real estate developments are driving wild raccoons out of Tama Hills. But they are preparing to fight back!',
         image: ''
       },
       {
-        title: 'Sussurros do Coração',
-        description: 'A estudante Shizuku descobre que todos os livros que ela pega na biblioteca já foram retirados por alguém chamado Seiji. Agora, ela quer encontrá-lo.',
+        title: 'Whisper of the Heart',
+        description: 'Student Shizuku discovers that all the books she borrows from the library have already been checked out by someone named Seiji. Now, she wants to find him.',
         image: ''
       },
       {
-        title: 'Princesa Mononoke',
-        description: 'Um príncipe sofre com uma maldição mortal e parte em busca da cura. Ele acaba indo parar no meio da batalha entre uma cidade mineradora e os animais da floresta.',
+        title: 'Princess Mononoke',
+        description: 'A prince suffers from a deadly curse and sets out to find a cure. He ends up in the middle of a battle between a mining town and the animals of the forest.',
+        image: ''
+      },
+      // {
+      //   title: 'Meus Vizinhos, Os Yamadas',
+      //   description: 'A família Yamada é uma família como todas as outras, com os mesmos dilemas, alegrias e descobertas. Os pais lidam com cada situação com humor, tentando demonstrar todo o amor que sentem pelos filhos.',
+      //   image: ''
+      // },
+      {
+        title: 'Spirited Away',
+        description: 'Chihiro and her parents are moving to a different city. On the way to the new house, the father decides to take a shortcut. They come across a table laden with food, although no one is around. Chihiro senses danger, but his parents start eating.',
         image: ''
       },
       {
-        title: 'Meus Vizinhos, Os Yamadas',
-        description: 'A família Yamada é uma família como todas as outras, com os mesmos dilemas, alegrias e descobertas. Os pais lidam com cada situação com humor, tentando demonstrar todo o amor que sentem pelos filhos.',
+        title: 'The Cat Returns',
+        description: 'Haru saves a cat that was about to be run over by a truck and discovers that he is, in fact, a prince. Out of gratitude the King of Cats asks her to marry him, and the girl is taken to the Kingdom of Cats. Now, she wants her freedom.',
         image: ''
       },
       {
-        title: 'A Viagem de Chihiro',
-        description: 'Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer.',
+        title: 'Howl\'s Moving Castle',
+        description: 'Young Sophie works in her late father\'s hat shop in a drab town. But things take a turn for the worse after a spell transforms her into an elderly woman.',
         image: ''
       },
       {
-        title: 'O Reino dos Gatos',
-        description: 'Haru salva um gato que estava prestes a ser atropelado por um caminhão e descobre que ele é, na verdade, um príncipe. Por gratidão o Rei dos Gatos a pede em casamento, e a menina é levada para o Reino dos Gatos. Agora, ela quer sua liberdade.',
+        title: 'Tales from Earhsea',
+        description: 'An arch sorcerer leads a troubled and dark prince on a journey to discover the source of the evil that inhabits him and save the woman they love.',
         image: ''
       },
       {
-        title: 'O Castelo Animado',
-        description: 'A jovem Sophie trabalha na chapelaria de seu falecido pai em uma cidade monótona. Mas as coisas mudam de figura depois que um feitiço a transforma em uma mulher idosa.',
+        title: 'Ponyo - A Friendship That Came From the Sea',
+        description: 'A 5-year-old boy named Sosuke befriends a goldfish princess named Ponyo, who desperately wants to become a human.',
         image: ''
       },
       {
-        title: 'Contos de Terramar',
-        description: 'Um arquifeiticeiro conduz um príncipe problemático e sombrio em uma jornada para descobrir a fonte do mal que o habita e salvar a mulher que eles amam.',
+        title: 'The Secret World of Arrietty',
+        description: 'Tiny Arriety befriends a big, big boy. Now she has to protect her tiny family from his huge relatives.',
         image: ''
       },
       {
-        title: 'Ponyo - Uma Amizade que Veio do Mar',
-        description: 'Um garoto de 5 anos chamado Sosuke fica amigo de uma princesa peixinho-dourado chamada Ponyo, que quer desesperadamente virar humana.',
+        title: 'DFrom up on Poppy Hill',
+        description: 'Two students try to stop an old wartime club from being destroyed during preparations for the 1964 Tokyo Olympics.',
         image: ''
       },
       {
-        title: 'O Mundo dos Pequeninos',
-        description: 'A pequenina Arriety se torna amiga de um menino muito, mas muito grande. Agora, ela tem de proteger sua família minúscula dos enormes parentes dele.',
+        title: 'The Wind Rises',
+        description: 'Jiro Horikoshi is a young man who lives in a town in the countryside of Japan. He dreams of flying in a bird-shaped plane. From that dream, Jiro decides that building a plane the way he wants it and putting it in the air is his life\'s goal.',
         image: ''
       },
       {
-        title: 'Da Colina Kokuriko',
-        description: 'Dois estudantes tentam impedir que um antigo clube da época da guerra seja destruído durante as preparações para as Olimpíadas de Tóquio de 1964.',
+        title: 'The Tale of the Princess Kaguya',
+        description: 'Kaguya was a baby who was found inside a glowing bamboo trunk. After time, she turns into a beautiful young woman who becomes coveted by five nobles, including the emperor himself.',
         image: ''
       },
       {
-        title: 'Vidas ao Vento',
-        description: 'Jiro Horikoshi é um jovem que vive em uma cidade no interior do Japão. Ele tem o sonho de voar em um avião com formato de pássaro. A partir desse sonho, Jiro decide que construir um avião como deseja e colocá-lo no ar é a meta de sua vida',
+        title: 'Whe Marnie was there',
+        description: 'While spending the holidays in a city where nothing happens, Anna befriends a girl who lives in a deserted house. But is the bond between them real?',
         image: ''
       },
       {
-        title: 'O Conto da Princesa Kaguya',
-        description: 'Kaguya era uma bebê que foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio imperador.',
-        image: ''
-      },
-      {
-        title: 'As Memórias de Marnie',
-        description: 'Ao passar as férias numa cidade onde nada acontece, Anna faz amizade com uma garota que mora em uma casa deserta. Mas será que o vínculo entre elas é real?',
-        image: ''
-      },
-      {
-        title: 'Aya e a Bruxa',
-        description: 'Uma órfã teimosa e corajosa é adotada por uma bruxa e se torna sua aprendiz nas artes mágicas.',
+        title: 'Aya and the Witch',
+        description: 'A stubborn and courageous orphan is adopted by a witch and becomes her apprentice in the magical arts.',
         image: ''
       }
     ], {})
