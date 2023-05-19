@@ -1,5 +1,6 @@
 import express from 'express';
 import ImageRouter from './routers/Image.router';
+import FilmsRouter from './routers/Films.router';
 
 class App {
   public app: express.Express;
@@ -24,6 +25,7 @@ class App {
 
   private Routers():void {
     this.app.use('/images', ImageRouter);
+    this.app.use('/films', FilmsRouter);
   }
 
   public start(PORT: string | number):void {
