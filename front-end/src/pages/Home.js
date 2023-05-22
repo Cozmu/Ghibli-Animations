@@ -30,7 +30,7 @@ export default function Home() {
           <CardFilm
             key={ movie.id }
             { ...movie }
-            fav={ movie }
+            movie={ movie }
             toggleFavorite={ toggleFavorite }
           />
         )) }

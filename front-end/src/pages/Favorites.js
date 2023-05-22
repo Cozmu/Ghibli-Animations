@@ -15,7 +15,7 @@ export default function Favorites() {
           <CardFilm
             key={ fav.id }
             { ...fav }
-            fav={ fav }
+            movie={ fav }
             toggleFavorite={ toggleFavorite }
           />
         ))}

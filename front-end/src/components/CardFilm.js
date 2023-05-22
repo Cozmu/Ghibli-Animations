@@ -3,11 +3,11 @@ import React, { useContext } from 'react';
 import { HiHeart } from 'react-icons/hi';
 import { FilmsContext } from '../context/FilmsContext';
 
-function CardFilm({ fav, image, title, description, toggleFavorite }) {
+function CardFilm({ movie, image, title, description, toggleFavorite }) {
   const { favoriteFilms } = useContext(FilmsContext);
 
   const toggleIcone = () => {
-    const verificacao = favoriteFilms.find((e) => e.id === fav.id);
+    const verificacao = favoriteFilms.find((e) => e.id === movie.id);
     if (verificacao) {
       return <HiHeart className="coracao-favoritado" />;
     }
@@ -19,7 +19,7 @@ function CardFilm({ fav, image, title, description, toggleFavorite }) {
       <button
         className="button-favorite"
         type="button"
-        onClick={ () => toggleFavorite(fav) }
+        onClick={ () => toggleFavorite(movie) }
       >
         {toggleIcone()}
       </button>
@@ -61,7 +61,7 @@ function CardFilm({ fav, image, title, description, toggleFavorite }) {
 
 CardFilm.propTypes = {
   description: PropTypes.string,
-  fav: PropTypes.string,
+  movie: PropTypes.string,
   image: PropTypes.string,
   title: PropTypes.string,
   toggleFavorite: PropTypes.func,
