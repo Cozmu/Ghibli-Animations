@@ -8,7 +8,6 @@ function FilmsProvider({ children }) {
   const [favoriteFilms, setFavoriteFilms] = useState([]);
 
   const toggleFavorite = (movie) => {
-    console.log(movie);
     const isFavorite = favoriteFilms.find((e) => e.id === movie.id);
     if (isFavorite) {
       const newFavorite = favoriteFilms.filter((e) => e.id !== movie.id);
