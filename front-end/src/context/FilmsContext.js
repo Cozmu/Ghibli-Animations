@@ -19,7 +19,7 @@ function FilmsProvider({ children }) {
 
   const fetchFilms = async () => {
     try {
-      const endPoint = 'https://ghibliapi.herokuapp.com/films';
+      const endPoint = 'http://localhost:3001/films';
       const response = await fetch(endPoint);
       const data = await response.json();
       setFilms(data);
