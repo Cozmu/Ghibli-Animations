@@ -59,11 +59,6 @@ module.exports = {
         description: 'A prince suffers from a deadly curse and sets out to find a cure. He ends up in the middle of a battle between a mining town and the animals of the forest.',
         image: 'http://localhost:3001/images/princess-mononoke.jpg'
       },
-      // {
-      //   title: 'Meus Vizinhos, Os Yamadas',
-      //   description: 'A família Yamada é uma família como todas as outras, com os mesmos dilemas, alegrias e descobertas. Os pais lidam com cada situação com humor, tentando demonstrar todo o amor que sentem pelos filhos.',
-      //   image: 'http://localhost:3001/images/.jpg'
-      // },
       {
         title: 'Spirited Away',
         description: 'Chihiro and her parents are moving to a different city. On the way to the new house, the father decides to take a shortcut. They come across a table laden with food, although no one is around. Chihiro senses danger, but his parents start eating.',
